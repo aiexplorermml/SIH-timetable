@@ -1,0 +1,668 @@
+[
+  {
+    "section_id": "aiml-3a",
+    "sectionName": "AI&ML 3A",
+    "semester": "3-1",
+    "totalStudents": 60,
+    "elective_group": "ELECTIVE 0",
+    "subjects": [
+      {
+        "subject_id": "SUBJ031",
+        "name": "Software Engineering",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      },
+      {
+        "subject_id": "SUBJ032",
+        "name": "Cloud Computing",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      },
+      {
+        "subject_id": "SUBJ033",
+        "name": "Internet of Things",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      },
+      {
+        "subject_id": "SUBJ034",
+        "name": "Exploratory Data Analysis with Python",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      },
+      {
+        "subject_id": "SUBJ035",
+        "name": "Automata Theory & Compiler Design",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      },
+      {
+        "subject_id": "SUBJ036",
+        "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-3a",
+    "sectionName": "AI&ML 3A",
+    "semester": "3-1",
+    "totalStudents": 60,
+    "elective_group": "ELECTIVE 1",
+    "subjects": [
+      {
+        "subject_id": "SUBJ037",
+        "name": "Free Subject",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      },
+      {
+        "subject_id": "SUBJ038",
+        "name": "Entrepreneurship Development & Venture Creation",
+        "hours": 30,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-3b",
+    "sectionName": "AI&ML 3B",
+    "semester": "3-1",
+    "totalStudents": 60,
+    "elective_group": "ELECTIVE 0",
+    "subjects": [
+      {
+        "subject_id": "SUBJ031",
+        "name": "Software Engineering",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      },
+      {
+        "subject_id": "SUBJ032",
+        "name": "Cloud Computing",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      },
+      {
+        "subject_id": "SUBJ033",
+        "name": "Internet of Things",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      },
+      {
+        "subject_id": "SUBJ034",
+        "name": "Exploratory Data Analysis with Python",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      },
+      {
+        "subject_id": "SUBJ035",
+        "name": "Automata Theory & Compiler Design",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      },
+      {
+        "subject_id": "SUBJ036",
+        "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 10
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-3b",
+    "sectionName": "AI&ML 3B",
+    "semester": "3-1",
+    "totalStudents": 60,
+    "elective_group": "ELECTIVE 1",
+    "subjects": [
+      {
+        "subject_id": "SUBJ037",
+        "name": "Free Subject",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      },
+      {
+        "subject_id": "SUBJ038",
+        "name": "Entrepreneurship Development & Venture Creation",
+        "hours": 30,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-4a",
+    "sectionName": "AI&ML 4A",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "elective_group": "Elective III.I",
+    "subjects": [
+      {
+        "subject_id": "SUBJ057",
+        "name": "Adhoc & Sensor Networks",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 15
+      },
+      {
+        "subject_id": "SUBJ058",
+        "name": "Reinforcement Learning",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 15
+      },
+      {
+        "subject_id": "SUBJ059",
+        "name": "Social Media Analytics",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 15
+      },
+      {
+        "subject_id": "SUBJ060",
+        "name": "Software Testing Methodologies",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 15
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-4a",
+    "sectionName": "AI&ML 4A",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "elective_group": "Elective IV",
+    "subjects": [
+      {
+        "subject_id": "SUBJ061",
+        "name": "Human Computer Interaction",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ062",
+        "name": "Cyber Security & Cyber Laws",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ063",
+        "name": "Web Intelligence",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ064",
+        "name": "Parallel Computing",
+        "hours": 35,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ065",
+        "name": "Robotic Process Automation",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-4a",
+    "sectionName": "AI&ML 4A",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "elective_group": "Elective V",
+    "subjects": [
+      {
+        "subject_id": "SUBJ066",
+        "name": "E-commerce & Digital Marketing",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ067",
+        "name": "Bioinformatics",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ068",
+        "name": "Block Chain Technologies",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ069",
+        "name": "Soft Computing",
+        "hours": 45,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ070",
+        "name": "Network and Graph Analysis",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-4a",
+    "sectionName": "AI&ML 4A",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "elective_group": "Elective VI",
+    "subjects": [
+      {
+        "subject_id": "SUBJ071",
+        "name": "Spring Boot",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      },
+      {
+        "subject_id": "SUBJ072",
+        "name": "Autonomous Systems",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-4a",
+    "sectionName": "AI&ML 4A",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "elective_group": "Elective VII",
+    "subjects": [
+      {
+        "subject_id": "SUBJ073",
+        "name": "Cloud Computing & IoT",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      },
+      {
+        "subject_id": "SUBJ074",
+        "name": "Secure Coding Techniques",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-4b",
+    "sectionName": "AI&ML 4B",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "elective_group": "Elective III.I",
+    "subjects": [
+      {
+        "subject_id": "SUBJ057",
+        "name": "Adhoc & Sensor Networks",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 15
+      },
+      {
+        "subject_id": "SUBJ058",
+        "name": "Reinforcement Learning",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 15
+      },
+      {
+        "subject_id": "SUBJ059",
+        "name": "Social Media Analytics",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 15
+      },
+      {
+        "subject_id": "SUBJ060",
+        "name": "Software Testing Methodologies",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 15
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-4b",
+    "sectionName": "AI&ML 4B",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "elective_group": "Elective IV",
+    "subjects": [
+      {
+        "subject_id": "SUBJ061",
+        "name": "Human Computer Interaction",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ062",
+        "name": "Cyber Security & Cyber Laws",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ063",
+        "name": "Web Intelligence",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ064",
+        "name": "Parallel Computing",
+        "hours": 35,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ065",
+        "name": "Robotic Process Automation",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-4b",
+    "sectionName": "AI&ML 4B",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "elective_group": "Elective V",
+    "subjects": [
+      {
+        "subject_id": "SUBJ066",
+        "name": "E-commerce & Digital Marketing",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ067",
+        "name": "Bioinformatics",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ068",
+        "name": "Block Chain Technologies",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ069",
+        "name": "Soft Computing",
+        "hours": 45,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ070",
+        "name": "Network and Graph Analysis",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-4b",
+    "sectionName": "AI&ML 4B",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "elective_group": "Elective VI",
+    "subjects": [
+      {
+        "subject_id": "SUBJ071",
+        "name": "Spring Boot",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      },
+      {
+        "subject_id": "SUBJ072",
+        "name": "Autonomous Systems",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-4b",
+    "sectionName": "AI&ML 4B",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "elective_group": "Elective VII",
+    "subjects": [
+      {
+        "subject_id": "SUBJ073",
+        "name": "Cloud Computing & IoT",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      },
+      {
+        "subject_id": "SUBJ074",
+        "name": "Secure Coding Techniques",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 30
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-3a",
+    "sectionName": "AI&ML 3A",
+    "semester": "3-2",
+    "totalStudents": 60,
+    "elective_group": "ELECTIVE II",
+    "subjects": [
+      {
+        "subject_id": "SUBJ044",
+        "name": "Software Testing Methodology",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ045",
+        "name": "Cryptography &amp; Network Security",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ046",
+        "name": "DevOps",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ047",
+        "name": "Recommender Systems",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ036",
+        "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-3a",
+    "sectionName": "AI&ML 3A",
+    "semester": "3-2",
+    "totalStudents": 60,
+    "elective_group": "Elective-III.2",
+    "subjects": [
+      {
+        "subject_id": "SUBJ049",
+        "name": "Software Project Management",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ050",
+        "name": "Mobile Adhoc Networks",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ051",
+        "name": "Computer Vision",
+        "hours": 55,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ052",
+        "name": "NoSQL Databases",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ036",
+        "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+        "hours": 12,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-3b",
+    "sectionName": "AI&ML 3B",
+    "semester": "3-2",
+    "totalStudents": 60,
+    "elective_group": "ELECTIVE II",
+    "subjects": [
+      {
+        "subject_id": "SUBJ044",
+        "name": "Software Testing Methodology",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ045",
+        "name": "Cryptography &amp; Network Security",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ046",
+        "name": "DevOps",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ047",
+        "name": "Recommender Systems",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ036",
+        "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      }
+    ]
+  },
+  {
+    "section_id": "aiml-3b",
+    "sectionName": "AI&ML 3B",
+    "semester": "3-2",
+    "totalStudents": 60,
+    "elective_group": "Elective-III.2",
+    "subjects": [
+      {
+        "subject_id": "SUBJ049",
+        "name": "Software Project Management",
+        "hours": 60,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ050",
+        "name": "Mobile Adhoc Networks",
+        "hours": 50,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ051",
+        "name": "Computer Vision",
+        "hours": 55,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ052",
+        "name": "NoSQL Databases",
+        "hours": 40,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      },
+      {
+        "subject_id": "SUBJ036",
+        "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+        "hours": 12,
+        "is_lab": false,
+        "studentsEnrolled": 12
+      }
+    ]
+  }
+]

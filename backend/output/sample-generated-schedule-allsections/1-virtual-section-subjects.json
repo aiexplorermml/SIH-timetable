@@ -1,0 +1,470 @@
+[
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ031",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ031",
+    "year": "3",
+    "semester": "3-1",
+    "section": "ELECTIVE 0-SUBJ031",
+    "totalStudents": 20,
+    "elective_group": "ELECTIVE 0",
+    "subjects": [
+      {
+        "id": "SUBJ031",
+        "name": "Software Engineering",
+        "totalHours": 40,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ032",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ032",
+    "year": "3",
+    "semester": "3-1",
+    "section": "ELECTIVE 0-SUBJ032",
+    "totalStudents": 20,
+    "elective_group": "ELECTIVE 0",
+    "subjects": [
+      {
+        "id": "SUBJ032",
+        "name": "Cloud Computing",
+        "totalHours": 40,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ033",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ033",
+    "year": "3",
+    "semester": "3-1",
+    "section": "ELECTIVE 0-SUBJ033",
+    "totalStudents": 20,
+    "elective_group": "ELECTIVE 0",
+    "subjects": [
+      {
+        "id": "SUBJ033",
+        "name": "Internet of Things",
+        "totalHours": 40,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ034",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ034",
+    "year": "3",
+    "semester": "3-1",
+    "section": "ELECTIVE 0-SUBJ034",
+    "totalStudents": 20,
+    "elective_group": "ELECTIVE 0",
+    "subjects": [
+      {
+        "id": "SUBJ034",
+        "name": "Exploratory Data Analysis with Python",
+        "totalHours": 40,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ035",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ035",
+    "year": "3",
+    "semester": "3-1",
+    "section": "ELECTIVE 0-SUBJ035",
+    "totalStudents": 20,
+    "elective_group": "ELECTIVE 0",
+    "subjects": [
+      {
+        "id": "SUBJ035",
+        "name": "Automata Theory & Compiler Design",
+        "totalHours": 40,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ036",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ036",
+    "year": "3",
+    "semester": "3-1",
+    "section": "ELECTIVE 0-SUBJ036",
+    "totalStudents": 20,
+    "elective_group": "ELECTIVE 0",
+    "subjects": [
+      {
+        "id": "SUBJ036",
+        "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+        "totalHours": 40,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 1-SUBJ037",
+    "name": "VIRTUAL-3-1-ELECTIVE 1-SUBJ037",
+    "year": "3",
+    "semester": "3-1",
+    "section": "ELECTIVE 1-SUBJ037",
+    "totalStudents": 60,
+    "elective_group": "ELECTIVE 1",
+    "subjects": [
+      {
+        "id": "SUBJ037",
+        "name": "Free Subject",
+        "totalHours": 50,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 1-SUBJ038",
+    "name": "VIRTUAL-3-1-ELECTIVE 1-SUBJ038",
+    "year": "3",
+    "semester": "3-1",
+    "section": "ELECTIVE 1-SUBJ038",
+    "totalStudents": 60,
+    "elective_group": "ELECTIVE 1",
+    "subjects": [
+      {
+        "id": "SUBJ038",
+        "name": "Entrepreneurship Development & Venture Creation",
+        "totalHours": 30,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective III.I-SUBJ057",
+    "name": "VIRTUAL-4-1-Elective III.I-SUBJ057",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective III.I-SUBJ057",
+    "totalStudents": 30,
+    "elective_group": "Elective III.I",
+    "subjects": [
+      {
+        "id": "SUBJ057",
+        "name": "Adhoc & Sensor Networks",
+        "totalHours": 60,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective III.I-SUBJ058",
+    "name": "VIRTUAL-4-1-Elective III.I-SUBJ058",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective III.I-SUBJ058",
+    "totalStudents": 30,
+    "elective_group": "Elective III.I",
+    "subjects": [
+      {
+        "id": "SUBJ058",
+        "name": "Reinforcement Learning",
+        "totalHours": 50,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective III.I-SUBJ059",
+    "name": "VIRTUAL-4-1-Elective III.I-SUBJ059",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective III.I-SUBJ059",
+    "totalStudents": 30,
+    "elective_group": "Elective III.I",
+    "subjects": [
+      {
+        "id": "SUBJ059",
+        "name": "Social Media Analytics",
+        "totalHours": 50,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective III.I-SUBJ060",
+    "name": "VIRTUAL-4-1-Elective III.I-SUBJ060",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective III.I-SUBJ060",
+    "totalStudents": 30,
+    "elective_group": "Elective III.I",
+    "subjects": [
+      {
+        "id": "SUBJ060",
+        "name": "Software Testing Methodologies",
+        "totalHours": 40,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective IV-SUBJ061",
+    "name": "VIRTUAL-4-1-Elective IV-SUBJ061",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective IV-SUBJ061",
+    "totalStudents": 24,
+    "elective_group": "Elective IV",
+    "subjects": [
+      {
+        "id": "SUBJ061",
+        "name": "Human Computer Interaction",
+        "totalHours": 60,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective IV-SUBJ062",
+    "name": "VIRTUAL-4-1-Elective IV-SUBJ062",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective IV-SUBJ062",
+    "totalStudents": 24,
+    "elective_group": "Elective IV",
+    "subjects": [
+      {
+        "id": "SUBJ062",
+        "name": "Cyber Security & Cyber Laws",
+        "totalHours": 50,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective IV-SUBJ063",
+    "name": "VIRTUAL-4-1-Elective IV-SUBJ063",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective IV-SUBJ063",
+    "totalStudents": 24,
+    "elective_group": "Elective IV",
+    "subjects": [
+      {
+        "id": "SUBJ063",
+        "name": "Web Intelligence",
+        "totalHours": 40,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective IV-SUBJ064",
+    "name": "VIRTUAL-4-1-Elective IV-SUBJ064",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective IV-SUBJ064",
+    "totalStudents": 24,
+    "elective_group": "Elective IV",
+    "subjects": [
+      {
+        "id": "SUBJ064",
+        "name": "Parallel Computing",
+        "totalHours": 35,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective IV-SUBJ065",
+    "name": "VIRTUAL-4-1-Elective IV-SUBJ065",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective IV-SUBJ065",
+    "totalStudents": 24,
+    "elective_group": "Elective IV",
+    "subjects": [
+      {
+        "id": "SUBJ065",
+        "name": "Robotic Process Automation",
+        "totalHours": 40,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective V-SUBJ066",
+    "name": "VIRTUAL-4-1-Elective V-SUBJ066",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective V-SUBJ066",
+    "totalStudents": 24,
+    "elective_group": "Elective V",
+    "subjects": [
+      {
+        "id": "SUBJ066",
+        "name": "E-commerce & Digital Marketing",
+        "totalHours": 60,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective V-SUBJ067",
+    "name": "VIRTUAL-4-1-Elective V-SUBJ067",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective V-SUBJ067",
+    "totalStudents": 24,
+    "elective_group": "Elective V",
+    "subjects": [
+      {
+        "id": "SUBJ067",
+        "name": "Bioinformatics",
+        "totalHours": 60,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective V-SUBJ068",
+    "name": "VIRTUAL-4-1-Elective V-SUBJ068",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective V-SUBJ068",
+    "totalStudents": 24,
+    "elective_group": "Elective V",
+    "subjects": [
+      {
+        "id": "SUBJ068",
+        "name": "Block Chain Technologies",
+        "totalHours": 60,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective V-SUBJ069",
+    "name": "VIRTUAL-4-1-Elective V-SUBJ069",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective V-SUBJ069",
+    "totalStudents": 24,
+    "elective_group": "Elective V",
+    "subjects": [
+      {
+        "id": "SUBJ069",
+        "name": "Soft Computing",
+        "totalHours": 45,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective V-SUBJ070",
+    "name": "VIRTUAL-4-1-Elective V-SUBJ070",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective V-SUBJ070",
+    "totalStudents": 24,
+    "elective_group": "Elective V",
+    "subjects": [
+      {
+        "id": "SUBJ070",
+        "name": "Network and Graph Analysis",
+        "totalHours": 60,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective VI-SUBJ071",
+    "name": "VIRTUAL-4-1-Elective VI-SUBJ071",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective VI-SUBJ071",
+    "totalStudents": 60,
+    "elective_group": "Elective VI",
+    "subjects": [
+      {
+        "id": "SUBJ071",
+        "name": "Spring Boot",
+        "totalHours": 60,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective VI-SUBJ072",
+    "name": "VIRTUAL-4-1-Elective VI-SUBJ072",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective VI-SUBJ072",
+    "totalStudents": 60,
+    "elective_group": "Elective VI",
+    "subjects": [
+      {
+        "id": "SUBJ072",
+        "name": "Autonomous Systems",
+        "totalHours": 60,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective VII-SUBJ073",
+    "name": "VIRTUAL-4-1-Elective VII-SUBJ073",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective VII-SUBJ073",
+    "totalStudents": 60,
+    "elective_group": "Elective VII",
+    "subjects": [
+      {
+        "id": "SUBJ073",
+        "name": "Cloud Computing & IoT",
+        "totalHours": 60,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective VII-SUBJ074",
+    "name": "VIRTUAL-4-1-Elective VII-SUBJ074",
+    "year": "4",
+    "semester": "4-1",
+    "section": "Elective VII-SUBJ074",
+    "totalStudents": 60,
+    "elective_group": "Elective VII",
+    "subjects": [
+      {
+        "id": "SUBJ074",
+        "name": "Secure Coding Techniques",
+        "totalHours": 50,
+        "is_lab": false
+      }
+    ],
+    "is_virtual": true
+  }
+]

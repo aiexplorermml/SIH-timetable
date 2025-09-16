@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "aiml-1a",
+    "name": "AI&ML 1A",
+    "year": 1,
+    "section": "A",
+    "semester": "1-1",
+    "totalStudents": 60,
+    "classTeacher": "Mr. Surya Prakash",
+    "subjects": [
+      {
+        "id": "SUBJ001",
+        "code": null,
+        "name": "Communicative English",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "1"
+      },
+      {
+        "id": "SUBJ002",
+        "code": null,
+        "name": "Engineering Physics",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "2"
+      },
+      {
+        "id": "SUBJ003",
+        "code": null,
+        "name": "Linear Algebra & Calculus",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "3"
+      },
+      {
+        "id": "SUBJ004",
+        "code": null,
+        "name": "Basic Civil and Mechanical Engineering",
+        "totalHours": 50,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "4"
+      },
+      {
+        "id": "SUBJ005",
+        "code": null,
+        "name": "Introduction to Programming",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "5"
+      },
+      {
+        "id": "SUBJ006",
+        "code": null,
+        "name": "Health, and Wellness, Yoga and Sports",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "6"
+      },
+      {
+        "id": "SUBJ001-LAB",
+        "code": null,
+        "name": "Communicative English - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "21"
+      },
+      {
+        "id": "SUBJ002-LAB",
+        "code": null,
+        "name": "Engineering Physics - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "19"
+      },
+      {
+        "id": "SUBJ005-LAB",
+        "code": null,
+        "name": "Introduction to Programming - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "17"
+      }
+    ],
+    "mapped_classroom": "1",
+    "is_virtual": false,
+    "elective_group": null
+  },
+  {
+    "id": "aiml-1b",
+    "name": "AI&ML 1b",
+    "year": 1,
+    "section": "B",
+    "semester": "1-1",
+    "totalStudents": 60,
+    "classTeacher": "Mrs. Padmavathi",
+    "subjects": [
+      {
+        "id": "SUBJ001",
+        "code": null,
+        "name": "Communicative English",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "1"
+      },
+      {
+        "id": "SUBJ002",
+        "code": null,
+        "name": "Engineering Physics",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "2"
+      },
+      {
+        "id": "SUBJ003",
+        "code": null,
+        "name": "Linear Algebra & Calculus",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "3"
+      },
+      {
+        "id": "SUBJ004",
+        "code": null,
+        "name": "Basic Civil and Mechanical Engineering",
+        "totalHours": 50,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "4"
+      },
+      {
+        "id": "SUBJ005",
+        "code": null,
+        "name": "Introduction to Programming",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "5"
+      },
+      {
+        "id": "SUBJ006",
+        "code": null,
+        "name": "Health, and Wellness, Yoga and Sports",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "6"
+      },
+      {
+        "id": "SUBJ001-LAB",
+        "code": null,
+        "name": "Communicative English - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "21"
+      },
+      {
+        "id": "SUBJ002-LAB",
+        "code": null,
+        "name": "Engineering Physics - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "19"
+      },
+      {
+        "id": "SUBJ005-LAB",
+        "code": null,
+        "name": "Introduction to Programming - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "17"
+      }
+    ],
+    "mapped_classroom": "2",
+    "is_virtual": false,
+    "elective_group": null
+  },
+  {
+    "id": "aiml-2a",
+    "name": "AI&ML 2A",
+    "year": 2,
+    "section": "A",
+    "semester": "2-1",
+    "totalStudents": 60,
+    "classTeacher": "Dr. Sarah Johnson",
+    "subjects": [
+      {
+        "id": "SUBJ014",
+        "code": null,
+        "name": "Discrete Mathematics & Graph Theory",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "13"
+      },
+      {
+        "id": "SUBJ015",
+        "code": null,
+        "name": "Understanding Human Values – Understanding Harmony",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "10"
+      },
+      {
+        "id": "SUBJ016",
+        "code": null,
+        "name": "Artificial Intelligence",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "10"
+      },
+      {
+        "id": "SUBJ017",
+        "code": null,
+        "name": "Advanced Data Structures & Algorithms Analysis",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "17"
+      },
+      {
+        "id": "SUBJ018",
+        "code": null,
+        "name": "Object Oriented Programming through JAVA",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "3"
+      },
+      {
+        "id": "SUBJ019",
+        "code": null,
+        "name": "Python Programming",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "19"
+      },
+      {
+        "id": "SUBJ020",
+        "code": null,
+        "name": "Environmental Science",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "20"
+      },
+      {
+        "id": "SUBJ017-LAB",
+        "code": null,
+        "name": "Advanced Data Structures & Algorithms Analysis - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "21"
+      },
+      {
+        "id": "SUBJ018-LAB",
+        "code": null,
+        "name": "Object Oriented Programming through JAVA - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "19"
+      }
+    ],
+    "mapped_classroom": "3",
+    "is_virtual": false,
+    "elective_group": null
+  },
+  {
+    "id": "aiml-2b",
+    "name": "AI&ML 2B",
+    "year": 2,
+    "section": "B",
+    "semester": "2-1",
+    "totalStudents": 60,
+    "classTeacher": "Prof. David Chen",
+    "subjects": [
+      {
+        "id": "SUBJ014",
+        "code": null,
+        "name": "Discrete Mathematics & Graph Theory",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "13"
+      },
+      {
+        "id": "SUBJ015",
+        "code": null,
+        "name": "Understanding Human Values – Understanding Harmony",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "10"
+      },
+      {
+        "id": "SUBJ016",
+        "code": null,
+        "name": "Artificial Intelligence",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "10"
+      },
+      {
+        "id": "SUBJ017",
+        "code": null,
+        "name": "Advanced Data Structures & Algorithms Analysis",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "17"
+      },
+      {
+        "id": "SUBJ018",
+        "code": null,
+        "name": "Object Oriented Programming through JAVA",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "3"
+      },
+      {
+        "id": "SUBJ019",
+        "code": null,
+        "name": "Python Programming",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "19"
+      },
+      {
+        "id": "SUBJ020",
+        "code": null,
+        "name": "Environmental Science",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "20"
+      },
+      {
+        "id": "SUBJ017-LAB",
+        "code": null,
+        "name": "Advanced Data Structures & Algorithms Analysis - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "21"
+      },
+      {
+        "id": "SUBJ018-LAB",
+        "code": null,
+        "name": "Object Oriented Programming through JAVA - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "19"
+      }
+    ],
+    "mapped_classroom": "4",
+    "is_virtual": false,
+    "elective_group": null
+  },
+  {
+    "id": "aiml-3a",
+    "name": "AI&ML 3A",
+    "year": 3,
+    "section": "A",
+    "semester": "3-1",
+    "totalStudents": 60,
+    "classTeacher": "Dr. Emily Davis",
+    "subjects": [
+      {
+        "id": "SUBJ028",
+        "code": null,
+        "name": "Information Retrieval Systems",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "4"
+      },
+      {
+        "id": "SUBJ029",
+        "code": null,
+        "name": "Computer Networks",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "7"
+      },
+      {
+        "id": "SUBJ030",
+        "code": null,
+        "name": "Operating Systems",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "6"
+      },
+      {
+        "id": "SUBJ039",
+        "code": null,
+        "name": "Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "15"
+      },
+      {
+        "id": "SUBJ028-LAB",
+        "code": null,
+        "name": "Information Retrieval Systems - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "9"
+      },
+      {
+        "id": "SUBJ029-LAB",
+        "code": null,
+        "name": "Computer Networks - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "5"
+      },
+      {
+        "id": "SUBJ039-LAB",
+        "code": null,
+        "name": "Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "5"
+      }
+    ],
+    "mapped_classroom": "5",
+    "is_virtual": false,
+    "elective_group": null
+  },
+  {
+    "id": "aiml-3b",
+    "name": "AI&ML 3B",
+    "year": 3,
+    "section": "B",
+    "semester": "3-1",
+    "totalStudents": 60,
+    "classTeacher": "Dr. Subbarao",
+    "subjects": [
+      {
+        "id": "SUBJ028",
+        "code": null,
+        "name": "Information Retrieval Systems",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "4"
+      },
+      {
+        "id": "SUBJ029",
+        "code": null,
+        "name": "Computer Networks",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "7"
+      },
+      {
+        "id": "SUBJ030",
+        "code": null,
+        "name": "Operating Systems",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "6"
+      },
+      {
+        "id": "SUBJ039",
+        "code": null,
+        "name": "Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "15"
+      },
+      {
+        "id": "SUBJ028-LAB",
+        "code": null,
+        "name": "Information Retrieval Systems - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "9"
+      },
+      {
+        "id": "SUBJ029-LAB",
+        "code": null,
+        "name": "Computer Networks - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "5"
+      },
+      {
+        "id": "SUBJ039-LAB",
+        "code": null,
+        "name": "Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer - Lab",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": true,
+        "assigned_faculty_id": "5"
+      }
+    ],
+    "mapped_classroom": "6",
+    "is_virtual": false,
+    "elective_group": null
+  },
+  {
+    "id": "aiml-4a",
+    "name": "AI&ML 4A",
+    "year": 4,
+    "section": "A",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "classTeacher": "Dr. Subha Lakshmi",
+    "subjects": [
+      {
+        "id": "SUBJ075",
+        "code": null,
+        "name": "Management Science",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "3"
+      },
+      {
+        "id": "SUBJ076",
+        "code": null,
+        "name": "Big Data: Apache Spark",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "6"
+      },
+      {
+        "id": "SUBJ077",
+        "code": null,
+        "name": "Industrial / Research Internship ( After third year)",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "12"
+      }
+    ],
+    "mapped_classroom": "7",
+    "is_virtual": false,
+    "elective_group": null
+  },
+  {
+    "id": "aiml-4b",
+    "name": "AI&ML 4B",
+    "year": 4,
+    "section": "B",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "classTeacher": "Mr. Prakash",
+    "subjects": [
+      {
+        "id": "SUBJ075",
+        "code": null,
+        "name": "Management Science",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "3"
+      },
+      {
+        "id": "SUBJ076",
+        "code": null,
+        "name": "Big Data: Apache Spark",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "6"
+      },
+      {
+        "id": "SUBJ077",
+        "code": null,
+        "name": "Industrial / Research Internship ( After third year)",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "12"
+      }
+    ],
+    "mapped_classroom": "8",
+    "is_virtual": false,
+    "elective_group": null
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ031",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ031",
+    "year": 3,
+    "section": "ELECTIVE 0-SUBJ031",
+    "semester": "3-1",
+    "totalStudents": 20,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ031",
+        "code": null,
+        "name": "Software Engineering",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "11"
+      }
+    ],
+    "mapped_classroom": "5",
+    "is_virtual": true,
+    "elective_group": "ELECTIVE 0"
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ032",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ032",
+    "year": 3,
+    "section": "ELECTIVE 0-SUBJ032",
+    "semester": "3-1",
+    "totalStudents": 20,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ032",
+        "code": null,
+        "name": "Cloud Computing",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "8"
+      }
+    ],
+    "mapped_classroom": "6",
+    "is_virtual": true,
+    "elective_group": "ELECTIVE 0"
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ033",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ033",
+    "year": 3,
+    "section": "ELECTIVE 0-SUBJ033",
+    "semester": "3-1",
+    "totalStudents": 20,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ033",
+        "code": null,
+        "name": "Internet of Things",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "9"
+      }
+    ],
+    "mapped_classroom": "9",
+    "is_virtual": true,
+    "elective_group": "ELECTIVE 0"
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ034",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ034",
+    "year": 3,
+    "section": "ELECTIVE 0-SUBJ034",
+    "semester": "3-1",
+    "totalStudents": 20,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ034",
+        "code": null,
+        "name": "Exploratory Data Analysis with Python",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "10"
+      }
+    ],
+    "mapped_classroom": "10",
+    "is_virtual": true,
+    "elective_group": "ELECTIVE 0"
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ035",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ035",
+    "year": 3,
+    "section": "ELECTIVE 0-SUBJ035",
+    "semester": "3-1",
+    "totalStudents": 20,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ035",
+        "code": null,
+        "name": "Automata Theory & Compiler Design",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "11"
+      }
+    ],
+    "mapped_classroom": "11",
+    "is_virtual": true,
+    "elective_group": "ELECTIVE 0"
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 0-SUBJ036",
+    "name": "VIRTUAL-3-1-ELECTIVE 0-SUBJ036",
+    "year": 3,
+    "section": "ELECTIVE 0-SUBJ036",
+    "semester": "3-1",
+    "totalStudents": 20,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ036",
+        "code": null,
+        "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "24"
+      }
+    ],
+    "mapped_classroom": "13",
+    "is_virtual": true,
+    "elective_group": "ELECTIVE 0"
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 1-SUBJ037",
+    "name": "VIRTUAL-3-1-ELECTIVE 1-SUBJ037",
+    "year": 3,
+    "section": "ELECTIVE 1-SUBJ037",
+    "semester": "3-1",
+    "totalStudents": 60,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ037",
+        "code": null,
+        "name": "Free Subject",
+        "totalHours": 50,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "2"
+      }
+    ],
+    "mapped_classroom": "5",
+    "is_virtual": true,
+    "elective_group": "ELECTIVE 1"
+  },
+  {
+    "id": "VIRTUAL-3-1-ELECTIVE 1-SUBJ038",
+    "name": "VIRTUAL-3-1-ELECTIVE 1-SUBJ038",
+    "year": 3,
+    "section": "ELECTIVE 1-SUBJ038",
+    "semester": "3-1",
+    "totalStudents": 60,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ038",
+        "code": null,
+        "name": "Entrepreneurship Development & Venture Creation",
+        "totalHours": 30,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "14"
+      }
+    ],
+    "mapped_classroom": "6",
+    "is_virtual": true,
+    "elective_group": "ELECTIVE 1"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective III.I-SUBJ057",
+    "name": "VIRTUAL-4-1-Elective III.I-SUBJ057",
+    "year": 4,
+    "section": "Elective III.I-SUBJ057",
+    "semester": "4-1",
+    "totalStudents": 30,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ057",
+        "code": null,
+        "name": "Adhoc & Sensor Networks",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "9"
+      }
+    ],
+    "mapped_classroom": "7",
+    "is_virtual": true,
+    "elective_group": "Elective III.I"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective III.I-SUBJ058",
+    "name": "VIRTUAL-4-1-Elective III.I-SUBJ058",
+    "year": 4,
+    "section": "Elective III.I-SUBJ058",
+    "semester": "4-1",
+    "totalStudents": 30,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ058",
+        "code": null,
+        "name": "Reinforcement Learning",
+        "totalHours": 50,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "8"
+      }
+    ],
+    "mapped_classroom": "8",
+    "is_virtual": true,
+    "elective_group": "Elective III.I"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective III.I-SUBJ059",
+    "name": "VIRTUAL-4-1-Elective III.I-SUBJ059",
+    "year": 4,
+    "section": "Elective III.I-SUBJ059",
+    "semester": "4-1",
+    "totalStudents": 30,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ059",
+        "code": null,
+        "name": "Social Media Analytics",
+        "totalHours": 50,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "4"
+      }
+    ],
+    "mapped_classroom": "17",
+    "is_virtual": true,
+    "elective_group": "Elective III.I"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective III.I-SUBJ060",
+    "name": "VIRTUAL-4-1-Elective III.I-SUBJ060",
+    "year": 4,
+    "section": "Elective III.I-SUBJ060",
+    "semester": "4-1",
+    "totalStudents": 30,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ060",
+        "code": null,
+        "name": "Software Testing Methodologies",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "12"
+      }
+    ],
+    "mapped_classroom": "18",
+    "is_virtual": true,
+    "elective_group": "Elective III.I"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective IV-SUBJ061",
+    "name": "VIRTUAL-4-1-Elective IV-SUBJ061",
+    "year": 4,
+    "section": "Elective IV-SUBJ061",
+    "semester": "4-1",
+    "totalStudents": 24,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ061",
+        "code": null,
+        "name": "Human Computer Interaction",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "13"
+      }
+    ],
+    "mapped_classroom": "7",
+    "is_virtual": true,
+    "elective_group": "Elective IV"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective IV-SUBJ062",
+    "name": "VIRTUAL-4-1-Elective IV-SUBJ062",
+    "year": 4,
+    "section": "Elective IV-SUBJ062",
+    "semester": "4-1",
+    "totalStudents": 24,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ062",
+        "code": null,
+        "name": "Cyber Security & Cyber Laws",
+        "totalHours": 50,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "14"
+      }
+    ],
+    "mapped_classroom": "8",
+    "is_virtual": true,
+    "elective_group": "Elective IV"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective IV-SUBJ063",
+    "name": "VIRTUAL-4-1-Elective IV-SUBJ063",
+    "year": 4,
+    "section": "Elective IV-SUBJ063",
+    "semester": "4-1",
+    "totalStudents": 24,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ063",
+        "code": null,
+        "name": "Web Intelligence",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "7"
+      }
+    ],
+    "mapped_classroom": "19",
+    "is_virtual": true,
+    "elective_group": "Elective IV"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective IV-SUBJ064",
+    "name": "VIRTUAL-4-1-Elective IV-SUBJ064",
+    "year": 4,
+    "section": "Elective IV-SUBJ064",
+    "semester": "4-1",
+    "totalStudents": 24,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ064",
+        "code": null,
+        "name": "Parallel Computing",
+        "totalHours": 35,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "16"
+      }
+    ],
+    "mapped_classroom": "20",
+    "is_virtual": true,
+    "elective_group": "Elective IV"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective IV-SUBJ065",
+    "name": "VIRTUAL-4-1-Elective IV-SUBJ065",
+    "year": 4,
+    "section": "Elective IV-SUBJ065",
+    "semester": "4-1",
+    "totalStudents": 24,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ065",
+        "code": null,
+        "name": "Robotic Process Automation",
+        "totalHours": 40,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "17"
+      }
+    ],
+    "mapped_classroom": "21",
+    "is_virtual": true,
+    "elective_group": "Elective IV"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective V-SUBJ066",
+    "name": "VIRTUAL-4-1-Elective V-SUBJ066",
+    "year": 4,
+    "section": "Elective V-SUBJ066",
+    "semester": "4-1",
+    "totalStudents": 24,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ066",
+        "code": null,
+        "name": "E-commerce & Digital Marketing",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "18"
+      }
+    ],
+    "mapped_classroom": "7",
+    "is_virtual": true,
+    "elective_group": "Elective V"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective V-SUBJ067",
+    "name": "VIRTUAL-4-1-Elective V-SUBJ067",
+    "year": 4,
+    "section": "Elective V-SUBJ067",
+    "semester": "4-1",
+    "totalStudents": 24,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ067",
+        "code": null,
+        "name": "Bioinformatics",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "8"
+      }
+    ],
+    "mapped_classroom": "8",
+    "is_virtual": true,
+    "elective_group": "Elective V"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective V-SUBJ068",
+    "name": "VIRTUAL-4-1-Elective V-SUBJ068",
+    "year": 4,
+    "section": "Elective V-SUBJ068",
+    "semester": "4-1",
+    "totalStudents": 24,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ068",
+        "code": null,
+        "name": "Block Chain Technologies",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "20"
+      }
+    ],
+    "mapped_classroom": "22",
+    "is_virtual": true,
+    "elective_group": "Elective V"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective V-SUBJ069",
+    "name": "VIRTUAL-4-1-Elective V-SUBJ069",
+    "year": 4,
+    "section": "Elective V-SUBJ069",
+    "semester": "4-1",
+    "totalStudents": 24,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ069",
+        "code": null,
+        "name": "Soft Computing",
+        "totalHours": 45,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "21"
+      }
+    ],
+    "mapped_classroom": "23",
+    "is_virtual": true,
+    "elective_group": "Elective V"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective V-SUBJ070",
+    "name": "VIRTUAL-4-1-Elective V-SUBJ070",
+    "year": 4,
+    "section": "Elective V-SUBJ070",
+    "semester": "4-1",
+    "totalStudents": 24,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ070",
+        "code": null,
+        "name": "Network and Graph Analysis",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "22"
+      }
+    ],
+    "mapped_classroom": "24",
+    "is_virtual": true,
+    "elective_group": "Elective V"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective VI-SUBJ071",
+    "name": "VIRTUAL-4-1-Elective VI-SUBJ071",
+    "year": 4,
+    "section": "Elective VI-SUBJ071",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ071",
+        "code": null,
+        "name": "Spring Boot",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "23"
+      }
+    ],
+    "mapped_classroom": "7",
+    "is_virtual": true,
+    "elective_group": "Elective VI"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective VI-SUBJ072",
+    "name": "VIRTUAL-4-1-Elective VI-SUBJ072",
+    "year": 4,
+    "section": "Elective VI-SUBJ072",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ072",
+        "code": null,
+        "name": "Autonomous Systems",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "24"
+      }
+    ],
+    "mapped_classroom": "8",
+    "is_virtual": true,
+    "elective_group": "Elective VI"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective VII-SUBJ073",
+    "name": "VIRTUAL-4-1-Elective VII-SUBJ073",
+    "year": 4,
+    "section": "Elective VII-SUBJ073",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ073",
+        "code": null,
+        "name": "Cloud Computing & IoT",
+        "totalHours": 60,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "1"
+      }
+    ],
+    "mapped_classroom": "7",
+    "is_virtual": true,
+    "elective_group": "Elective VII"
+  },
+  {
+    "id": "VIRTUAL-4-1-Elective VII-SUBJ074",
+    "name": "VIRTUAL-4-1-Elective VII-SUBJ074",
+    "year": 4,
+    "section": "Elective VII-SUBJ074",
+    "semester": "4-1",
+    "totalStudents": 60,
+    "classTeacher": null,
+    "subjects": [
+      {
+        "id": "SUBJ074",
+        "code": null,
+        "name": "Secure Coding Techniques",
+        "totalHours": 50,
+        "prerequisites": [],
+        "topics": [],
+        "is_lab": false,
+        "assigned_faculty_id": "8"
+      }
+    ],
+    "mapped_classroom": "8",
+    "is_virtual": true,
+    "elective_group": "Elective VII"
+  }
+]

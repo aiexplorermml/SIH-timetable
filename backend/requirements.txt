@@ -1,0 +1,8 @@
+ortools
+pandas
+pydantic
+python-dateutil
+click
+pytest
+numpy
+tabulate

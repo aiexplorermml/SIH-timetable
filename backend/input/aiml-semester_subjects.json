@@ -1,0 +1,629 @@
+{
+  "1-1": {
+    "subjects": [
+      {
+        "name": "Communicative English",
+        "id": "SUBJ001",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Engineering Physics",
+        "id": "SUBJ002",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Linear Algebra & Calculus",
+        "id": "SUBJ003",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Basic Civil and Mechanical Engineering",
+        "id": "SUBJ004",
+        "totalHours": 50,
+        "is_lab": false
+      },
+      {
+        "name": "Introduction to Programming",
+        "id": "SUBJ005",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Health, and Wellness, Yoga and Sports",
+        "id": "SUBJ006",
+        "totalHours": 40,
+        "is_lab": false
+      },
+      {
+        "name": "Communicative English - Lab",
+        "id": "SUBJ001-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      },
+      {
+        "name": "Engineering Physics - Lab",
+        "id": "SUBJ002-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      },
+      {
+        "name": "Introduction to Programming - Lab",
+        "id": "SUBJ005-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      }
+    ],
+    "electives": {}
+  },
+  "1-2": {
+    "subjects": [
+      {
+        "name": "Chemistry",
+        "id": "SUBJ007",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Differential Equations and Vector Calculus",
+        "id": "SUBJ008",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Basic Electrical and Electronics Engineering",
+        "id": "SUBJ009",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Engineering Graphics",
+        "id": "SUBJ010",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Data Structures",
+        "id": "SUBJ011",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "IT Workshop",
+        "id": "SUBJ012",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "NSS / Community Service",
+        "id": "SUBJ013",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Basic Electrical and Electronics Engineering - Lab",
+        "id": "SUBJ009-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      },
+      {
+        "name": "Data Structures - Lab",
+        "id": "SUBJ011-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      },
+      {
+        "name": "IT Workshop - Lab",
+        "id": "SUBJ012-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      }
+    ],
+    "electives": {}
+  },
+  "2-1": {
+    "subjects": [
+      {
+        "name": "Discrete Mathematics & Graph Theory",
+        "id": "SUBJ014",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Understanding Human Values \u2013 Understanding Harmony",
+        "id": "SUBJ015",
+        "totalHours": 30,
+        "is_lab": false
+      },
+      {
+        "name": "Artificial Intelligence",
+        "id": "SUBJ016",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Advanced Data Structures & Algorithms Analysis",
+        "id": "SUBJ017",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Object Oriented Programming through JAVA",
+        "id": "SUBJ018",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Python Programming",
+        "id": "SUBJ019",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Environmental Science",
+        "id": "SUBJ020",
+        "totalHours": 30,
+        "is_lab": false
+      },
+      {
+        "name": "Advanced Data Structures & Algorithms Analysis - Lab",
+        "id": "SUBJ017-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      },
+      {
+        "name": "Object Oriented Programming through JAVA - Lab",
+        "id": "SUBJ018-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      }
+    ],
+    "electives": {}
+  },
+  "2-2": {
+    "subjects": [
+      {
+        "name": "Optimization Techniques",
+        "id": "SUBJ021",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Probability & Statistics",
+        "id": "SUBJ022",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Machine Learning",
+        "id": "SUBJ023",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Data Base Management Systems",
+        "id": "SUBJ024",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Digital Logic & Computer Organization",
+        "id": "SUBJ025",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Flutter",
+        "id": "SUBJ026",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Design Thinking & Innovation",
+        "id": "SUBJ027",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Machine Learning - Lab",
+        "id": "SUBJ023-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      },
+      {
+        "name": "Data Base Management Systems - Lab",
+        "id": "SUBJ024-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      },
+      {
+        "name": "Flutter - Lab",
+        "id": "SUBJ026-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      }
+    ],
+    "electives": {}
+  },
+  "3-1": {
+    "subjects": [
+      {
+        "name": "Information Retrieval Systems",
+        "id": "SUBJ028",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Computer Networks",
+        "id": "SUBJ029",
+        "totalHours": 40,
+        "is_lab": false
+      },
+      {
+        "name": "Operating Systems",
+        "id": "SUBJ030",
+        "totalHours": 40,
+        "is_lab": false
+      },
+      {
+        "name": "Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer",
+        "id": "SUBJ039",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      
+      {
+        "name": "Information Retrieval Systems - Lab",
+        "id": "SUBJ028-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      },
+      {
+        "name": "Computer Networks - Lab",
+        "id": "SUBJ029-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      },
+      {
+        "name": "Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer - Lab",
+        "id": "SUBJ039-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      }
+    ],
+    "electives": {
+      "ELECTIVE 0": {
+        "subjects": [
+          {
+            "name": "Software Engineering",
+            "id": "SUBJ031",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "Cloud Computing",
+            "id": "SUBJ032",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "Internet of Things",
+            "id": "SUBJ033",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "Exploratory Data Analysis with Python",
+            "id": "SUBJ034",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "Automata Theory & Compiler Design",
+            "id": "SUBJ035",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+            "id": "SUBJ036",
+            "totalHours": 40,
+            "is_lab": false
+          }
+        ]
+      },
+      "ELECTIVE 1": {
+        "subjects": [
+          {
+            "name": "Free Subject",
+            "id": "SUBJ037",
+            "totalHours": 50,
+            "is_lab": false
+          },
+          {
+            "name": "Entrepreneurship Development & Venture Creation",
+            "id": "SUBJ038",
+            "totalHours": 30,
+            "is_lab": false
+          }
+        ]
+      }
+    }
+  },
+  "3-2": {
+    "subjects": [
+      {
+        "name": "Natural Language Processing",
+        "id": "SUBJ041",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Deep Learning",
+        "id": "SUBJ042",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Data Visualization",
+        "id": "SUBJ043",
+        "totalHours": 60,
+        "is_lab": false
+      },
+      {
+        "name": "Free Subject",
+        "id": "SUBJ037",
+        "totalHours": 50,
+        "is_lab": false
+      },
+      {
+        "name": "Soft skills",
+        "id": "SUBJ055",
+        "totalHours": 35,
+        "is_lab": false
+      },
+      {
+        "name": "Technical Paper Writing & IPR",
+        "id": "SUBJ056",
+        "totalHours": 40,
+        "is_lab": false
+      },
+      {
+        "name": "Deep Learning - Lab",
+        "id": "SUBJ042-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      },
+      {
+        "name": "Data Visualization - Lab",
+        "id": "SUBJ043-LAB",
+        "totalHours": 30,
+        "is_lab": true
+      }
+    ],
+    "electives": {
+      "ELECTIVE II": {
+        "subjects": [
+          {
+            "name": "Software Testing Methodology",
+            "id": "SUBJ044",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "Cryptography &amp; Network Security",
+            "id": "SUBJ045",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "DevOps",
+            "id": "SUBJ046",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "Recommender Systems",
+            "id": "SUBJ047",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+            "id": "SUBJ036",
+            "totalHours": 40,
+            "is_lab": false
+          }
+        ]
+      },
+      "Elective-III.2": {
+        "subjects": [
+          {
+            "name": "Software Project Management",
+            "id": "SUBJ049",
+            "totalHours": 60,
+            "is_lab": false
+          },
+          {
+            "name": "Mobile Adhoc Networks",
+            "id": "SUBJ050",
+            "totalHours": 50,
+            "is_lab": false
+          },
+          {
+            "name": "Computer Vision",
+            "id": "SUBJ051",
+            "totalHours": 55,
+            "is_lab": false
+          },
+          {
+            "name": "NoSQL Databases",
+            "id": "SUBJ052",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+            "id": "SUBJ036",
+            "totalHours": 12,
+            "is_lab": false
+          }
+        ]
+      }
+    }
+  },
+  "4-1": {
+    "subjects": [
+      {
+        "name": "Management Science",
+        "id": "SUBJ075",
+        "totalHours": 40,
+        "is_lab": false
+      },
+      {
+        "name": "Big Data: Apache Spark",
+        "id": "SUBJ076",
+        "totalHours": 40,
+        "is_lab": false
+      },
+      {
+        "name": "Industrial / Research Internship ( After third year)",
+        "id": "SUBJ077",
+        "totalHours": 40,
+        "is_lab": false
+      }
+    ],
+    "electives": {
+      "Elective III.I": {
+        "subjects": [
+          {
+            "name": "Adhoc & Sensor Networks",
+            "id": "SUBJ057",
+            "totalHours": 60,
+            "is_lab": false
+          },
+          {
+            "name": "Reinforcement Learning",
+            "id": "SUBJ058",
+            "totalHours": 50,
+            "is_lab": false
+          },
+          {
+            "name": "Social Media Analytics",
+            "id": "SUBJ059",
+            "totalHours": 50,
+            "is_lab": false
+          },
+          {
+            "name": "Software Testing Methodologies",
+            "id": "SUBJ060",
+            "totalHours": 40,
+            "is_lab": false
+          }
+        ]
+      },
+      "Elective IV": {
+        "subjects": [
+          {
+            "name": "Human Computer Interaction",
+            "id": "SUBJ061",
+            "totalHours": 60,
+            "is_lab": false
+          },
+          {
+            "name": "Cyber Security & Cyber Laws",
+            "id": "SUBJ062",
+            "totalHours": 50,
+            "is_lab": false
+          },
+          {
+            "name": "Web Intelligence",
+            "id": "SUBJ063",
+            "totalHours": 40,
+            "is_lab": false
+          },
+          {
+            "name": "Parallel Computing",
+            "id": "SUBJ064",
+            "totalHours": 35,
+            "is_lab": false
+          },
+          {
+            "name": "Robotic Process Automation",
+            "id": "SUBJ065",
+            "totalHours": 40,
+            "is_lab": false
+          }
+        ]
+      },
+      "Elective V": {
+        "subjects": [
+          {
+            "name": "E-commerce & Digital Marketing",
+            "id": "SUBJ066",
+            "totalHours": 60,
+            "is_lab": false
+          },
+          {
+            "name": "Bioinformatics",
+            "id": "SUBJ067",
+            "totalHours": 60,
+            "is_lab": false
+          },
+          {
+            "name": "Block Chain Technologies",
+            "id": "SUBJ068",
+            "totalHours": 60,
+            "is_lab": false
+          },
+          {
+            "name": "Soft Computing",
+            "id": "SUBJ069",
+            "totalHours": 45,
+            "is_lab": false
+          },
+          {
+            "name": "Network and Graph Analysis",
+            "id": "SUBJ070",
+            "totalHours": 60,
+            "is_lab": false
+          }
+        ]
+      },
+      "Elective VI": {
+        "subjects": [
+          {
+            "name": "Spring Boot",
+            "id": "SUBJ071",
+            "totalHours": 60,
+            "is_lab": false
+          },
+          {
+            "name": "Autonomous Systems",
+            "id": "SUBJ072",
+            "totalHours": 60,
+            "is_lab": false
+          }
+        ]
+      },
+      "Elective VII": {
+        "subjects": [
+          {
+            "name": "Cloud Computing & IoT",
+            "id": "SUBJ073",
+            "totalHours": 60,
+            "is_lab": false
+          },
+          {
+            "name": "Secure Coding Techniques",
+            "id": "SUBJ074",
+            "totalHours": 50,
+            "is_lab": false
+          }
+        ]
+      }
+    }
+  }
+}
