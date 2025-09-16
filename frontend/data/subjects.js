@@ -1,0 +1,2433 @@
+// Subject definitions and curriculum data
+export const subjects = [
+  {
+    "id": "SUBJ001",
+    "code": "SUBJ001",
+    "name": "Communicative English",
+    "totalHours": 45,
+    "prerequisites": [],
+    "is_lab": false,
+    "topics": [
+      {
+        "id": "SUBJ001-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Communicative English.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ001-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Communicative English.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ001-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Communicative English.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Communicative English' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ001-LAB",
+    "code": "SUBJ001-LAB",
+    "name": "Communicative English - Lab",
+    "totalHours": 30,
+    "is_lab": true,
+    "credit": 7,
+    "description": "This subject 'Communicative English - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ002",
+    "code": "SUBJ002",
+    "name": "Engineering Physics",
+    "totalHours": 45,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ002-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Engineering Physics.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ002-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Engineering Physics.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ002-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Engineering Physics.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 7,
+    "description": "This subject 'Engineering Physics' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ002-LAB",
+    "code": "SUBJ002-LAB",
+    "name": "Engineering Physics - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 10,
+    "description": "This subject 'Engineering Physics - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ003",
+    "code": "SUBJ003",
+    "name": "Linear Algebra & Calculus",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ003-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Linear Algebra & Calculus.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ003-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Linear Algebra & Calculus.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ003-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Linear Algebra & Calculus.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Linear Algebra & Calculus' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ004",
+    "code": "SUBJ004",
+    "name": "Basic Civil and Mechanical Engineering",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ004-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Basic Civil and Mechanical Engineering.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ004-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Basic Civil and Mechanical Engineering.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ004-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Basic Civil and Mechanical Engineering.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Basic Civil and Mechanical Engineering' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ005",
+    "code": "SUBJ005",
+    "name": "Introduction to Programming",
+    "is_lab": false,
+    "totalHours": 45,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ005-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Introduction to Programming.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ005-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Introduction to Programming.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ005-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Introduction to Programming.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Introduction to Programming' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ005-LAB",
+    "code": "SUBJ005-LAB",
+    "name": "Introduction to Programming - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 5,
+    "description": "This subject 'Introduction to Programming - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ006",
+    "code": "SUBJ006",
+    "name": "Health, and Wellness, Yoga and Sports",
+    "totalHours": 60,
+    "prerequisites": [],
+    "is_lab": false,
+    "topics": [
+      {
+        "id": "SUBJ006-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Health, and Wellness, Yoga and Sports.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ006-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Health, and Wellness, Yoga and Sports.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ006-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Health, and Wellness, Yoga and Sports.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Health, and Wellness, Yoga and Sports' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ007",
+    "code": "SUBJ007",
+    "name": "Chemistry",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ007-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Chemistry.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ007-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Chemistry.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ007-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Chemistry.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 4,
+    "description": "This subject 'Chemistry' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ008",
+    "code": "SUBJ008",
+    "name": "Differential Equations and Vector Calculus",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ008-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Differential Equations and Vector Calculus.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ008-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Differential Equations and Vector Calculus.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ008-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Differential Equations and Vector Calculus.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Differential Equations and Vector Calculus' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ009",
+    "code": "SUBJ009",
+    "name": "Basic Electrical and Electronics Engineering",
+    "is_lab": false,
+    "totalHours": 45,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ009-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Basic Electrical and Electronics Engineering.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ009-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Basic Electrical and Electronics Engineering.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ009-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Basic Electrical and Electronics Engineering.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 6,
+    "description": "This subject 'Basic Electrical and Electronics Engineering' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ009-LAB",
+    "code": "SUBJ009-LAB",
+    "is_lab": true,
+    "name": "Basic Electrical and Electronics Engineering - Lab",
+    "totalHours": 30,
+    "credit": 4,
+    "description": "This subject 'Basic Electrical and Electronics Engineering - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ010",
+    "code": "SUBJ010",
+    "name": "Engineering Graphics",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ010-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Engineering Graphics.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ010-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Engineering Graphics.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ010-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Engineering Graphics.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 4,
+    "description": "This subject 'Engineering Graphics' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ011",
+    "code": "SUBJ011",
+    "name": "Data Structures",
+    "is_lab": false,
+    "totalHours": 45,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ011-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Data Structures.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ011-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Data Structures.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ011-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Data Structures.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Data Structures' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ011-LAB",
+    "code": "SUBJ011-LAB",
+    "name": "Data Structures - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 5,
+    "description": "This subject 'Data Structures - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ012",
+    "code": "SUBJ012",
+    "name": "IT Workshop",
+    "is_lab": false,
+    "totalHours": 45,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ012-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to IT Workshop.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ012-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in IT Workshop.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ012-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in IT Workshop.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'IT Workshop' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ012-LAB",
+    "code": "SUBJ012-LAB",
+    "name": "IT Workshop - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 3,
+    "description": "This subject 'IT Workshop - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ013",
+    "code": "SUBJ013",
+    "name": "NSS / Community Service",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ013-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to NSS / Community Service.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ013-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in NSS / Community Service.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ013-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in NSS / Community Service.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'NSS / Community Service' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ014",
+    "code": "SUBJ014",
+    "name": "Discrete Mathematics & Graph Theory",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ014-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Discrete Mathematics & Graph Theory.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ014-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Discrete Mathematics & Graph Theory.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ014-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Discrete Mathematics & Graph Theory.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Discrete Mathematics & Graph Theory' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ015",
+    "code": "SUBJ015",
+    "name": "Understanding Human Values \u2013 Understanding Harmony",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ015-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Understanding Human Values \u2013 Understanding Harmony.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ015-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Understanding Human Values \u2013 Understanding Harmony.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ015-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Understanding Human Values \u2013 Understanding Harmony.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Understanding Human Values \u2013 Understanding Harmony' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ016",
+    "code": "SUBJ016",
+    "name": "Artificial Intelligence",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ016-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Artificial Intelligence.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ016-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Artificial Intelligence.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ016-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Artificial Intelligence.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Artificial Intelligence' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ017",
+    "code": "SUBJ017",
+    "name": "Advanced Data Structures & Algorithms Analysis",
+    "totalHours": 45,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ017-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Advanced Data Structures & Algorithms Analysis.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ017-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Advanced Data Structures & Algorithms Analysis.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ017-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Advanced Data Structures & Algorithms Analysis.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 5,
+    "description": "This subject 'Advanced Data Structures & Algorithms Analysis' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ017-LAB",
+    "code": "SUBJ017-LAB",
+    "is_lab": true,
+    "name": "Advanced Data Structures & Algorithms Analysis - Lab",
+    "totalHours": 30,
+    "credit": 3,
+    "description": "This subject 'Advanced Data Structures & Algorithms Analysis - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ018",
+    "code": "SUBJ018",
+    "name": "Object Oriented Programming through JAVA",
+    "is_lab": false,
+    "totalHours": 45,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ018-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Object Oriented Programming through JAVA.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ018-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Object Oriented Programming through JAVA.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ018-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Object Oriented Programming through JAVA.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 4,
+    "description": "This subject 'Object Oriented Programming through JAVA' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ018-LAB",
+    "code": "SUBJ018-LAB",
+    "is_lab": true,
+    "name": "Object Oriented Programming through JAVA - Lab",
+    "totalHours": 30,
+    "credit": 5,
+    "description": "This subject 'Object Oriented Programming through JAVA - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ019",
+    "code": "SUBJ019",
+    "name": "Python Programming",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ019-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Python Programming.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ019-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Python Programming.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ019-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Python Programming.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 9,
+    "description": "This subject 'Python Programming' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ020",
+    "code": "SUBJ020",
+    "name": "Environmental Science",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ020-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Environmental Science.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ020-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Environmental Science.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ020-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Environmental Science.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Environmental Science' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ021",
+    "code": "SUBJ021",
+    "name": "Optimization Techniques",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ021-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Optimization Techniques.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ021-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Optimization Techniques.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ021-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Optimization Techniques.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Optimization Techniques' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ022",
+    "code": "SUBJ022",
+    "name": "Probability & Statistics",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ022-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Probability & Statistics.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ022-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Probability & Statistics.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ022-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Probability & Statistics.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 9,
+    "description": "This subject 'Probability & Statistics' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ023",
+    "code": "SUBJ023",
+    "name": "Machine Learning",
+    "totalHours": 45,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ023-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Machine Learning.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ023-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Machine Learning.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ023-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Machine Learning.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Machine Learning' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ023-LAB",
+    "code": "SUBJ023-LAB",
+    "is_lab": true,
+    "name": "Machine Learning - Lab",
+    "totalHours": 30,
+    "credit": 8,
+    "description": "This subject 'Machine Learning - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ024",
+    "code": "SUBJ024",
+    "name": "Data Base Management Systems",
+    "is_lab": false,
+    "totalHours": 45,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ024-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Data Base Management Systems.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ024-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Data Base Management Systems.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ024-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Data Base Management Systems.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 6,
+    "description": "This subject 'Data Base Management Systems' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ024-LAB",
+    "code": "SUBJ024-LAB",
+    "is_lab": true,
+    "name": "Data Base Management Systems - Lab",
+    "totalHours": 30,
+    "credit": 10,
+    "description": "This subject 'Data Base Management Systems - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ025",
+    "code": "SUBJ025",
+    "name": "Digital Logic & Computer Organization",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ025-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Digital Logic & Computer Organization.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ025-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Digital Logic & Computer Organization.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ025-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Digital Logic & Computer Organization.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 4,
+    "description": "This subject 'Digital Logic & Computer Organization' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ026",
+    "code": "SUBJ026",
+    "name": "Flutter",
+    "is_lab": false,
+    "totalHours": 45,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ026-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Flutter.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ026-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Flutter.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ026-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Flutter.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Flutter' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ026-LAB",
+    "code": "SUBJ026-LAB",
+    "name": "Flutter - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 9,
+    "description": "This subject 'Flutter - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ027",
+    "code": "SUBJ027",
+    "name": "Design Thinking & Innovation",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ027-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Design Thinking & Innovation.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ027-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Design Thinking & Innovation.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ027-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Design Thinking & Innovation.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 10,
+    "description": "This subject 'Design Thinking & Innovation' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ028",
+    "code": "SUBJ028",
+    "name": "Information Retrieval Systems",
+    "totalHours": 45,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ028-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Information Retrieval Systems.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ028-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Information Retrieval Systems.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ028-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Information Retrieval Systems.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 9,
+    "description": "This subject 'Information Retrieval Systems' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ028-LAB",
+    "code": "SUBJ028-LAB",
+    "is_lab": true,
+    "name": "Information Retrieval Systems - Lab",
+    "totalHours": 30,
+    "credit": 9,
+    "description": "This subject 'Information Retrieval Systems - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ029",
+    "code": "SUBJ029",
+    "name": "Computer Networks",
+    "totalHours": 45,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ029-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Computer Networks.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ029-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Computer Networks.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ029-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Computer Networks.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 5,
+    "description": "This subject 'Computer Networks' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ029-LAB",
+    "code": "SUBJ029-LAB",
+    "name": "Computer Networks - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 3,
+    "description": "This subject 'Computer Networks - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ030",
+    "code": "SUBJ030",
+    "name": "Operating Systems",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ030-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Operating Systems.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ030-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Operating Systems.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ030-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Operating Systems.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Operating Systems' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ031",
+    "code": "SUBJ031",
+    "name": "Software Engineering",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ031-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Software Engineering.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ031-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Software Engineering.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ031-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Software Engineering.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Software Engineering' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ032",
+    "code": "SUBJ032",
+    "name": "Cloud Computing",
+    "totalHours": 60,
+    "prerequisites": [],
+    "is_lab": false,
+    "topics": [
+      {
+        "id": "SUBJ032-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Cloud Computing.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ032-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Cloud Computing.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ032-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Cloud Computing.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 5,
+    "description": "This subject 'Cloud Computing' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ033",
+    "code": "SUBJ033",
+    "name": "Internet of Things",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ033-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Internet of Things.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ033-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Internet of Things.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ033-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Internet of Things.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Internet of Things' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ034",
+    "code": "SUBJ034",
+    "name": "Exploratory Data Analysis with Python",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ034-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Exploratory Data Analysis with Python.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ034-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Exploratory Data Analysis with Python.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ034-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Exploratory Data Analysis with Python.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Exploratory Data Analysis with Python' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ035",
+    "code": "SUBJ035",
+    "name": "Automata Theory & Compiler Design",
+    "totalHours": 60,
+    "prerequisites": [],
+    "is_lab": false,
+    "topics": [
+      {
+        "id": "SUBJ035-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Automata Theory & Compiler Design.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ035-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Automata Theory & Compiler Design.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ035-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Automata Theory & Compiler Design.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 7,
+    "description": "This subject 'Automata Theory & Compiler Design' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ036",
+    "code": "SUBJ036",
+    "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ036-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ036-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ036-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ037",
+    "code": "SUBJ037",
+    "name": "Free Subject",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ037-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Free Subject.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ037-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Free Subject.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ037-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Free Subject.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Free Subject' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ038",
+    "code": "SUBJ038",
+    "name": "Entrepreneurship Development & Venture Creation",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ038-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Entrepreneurship Development & Venture Creation.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ038-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Entrepreneurship Development & Venture Creation.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ038-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Entrepreneurship Development & Venture Creation.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Entrepreneurship Development & Venture Creation' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ039",
+    "code": "SUBJ039",
+    "name": "Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer",
+    "is_lab": false,
+    "totalHours": 45,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ039-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ039-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ039-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 5,
+    "description": "This subject 'Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ039-LAB",
+    "code": "SUBJ039-LAB",
+    "is_lab": true,
+    "name": "Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer - Lab",
+    "totalHours": 30,
+    "credit": 5,
+    "description": "This subject 'Full Stack development -2 /SWAYAM Plus-Data Engineer/AI Engineer - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ040",
+    "code": "SUBJ040",
+    "name": "Tinkering Lab(User Interface Design using Flutter)",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ040-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Tinkering Lab(User Interface Design using Flutter).",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ040-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Tinkering Lab(User Interface Design using Flutter).",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ040-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Tinkering Lab(User Interface Design using Flutter).",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Tinkering Lab(User Interface Design using Flutter)' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ041",
+    "code": "SUBJ041",
+    "name": "Natural Language Processing",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ041-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Natural Language Processing.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ041-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Natural Language Processing.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ041-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Natural Language Processing.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 2,
+    "description": "This subject 'Natural Language Processing' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ042",
+    "code": "SUBJ042",
+    "name": "Deep Learning",
+    "totalHours": 45,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ042-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Deep Learning.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ042-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Deep Learning.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ042-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Deep Learning.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 5,
+    "description": "This subject 'Deep Learning' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ042-LAB",
+    "code": "SUBJ042-LAB",
+    "name": "Deep Learning - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 3,
+    "description": "This subject 'Deep Learning - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ043",
+    "code": "SUBJ043",
+    "name": "Data Visualization",
+    "totalHours": 45,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ043-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Data Visualization.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ043-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Data Visualization.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ043-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Data Visualization.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 4,
+    "description": "This subject 'Data Visualization' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ043-LAB",
+    "code": "SUBJ043-LAB",
+    "name": "Data Visualization - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 8,
+    "description": "This subject 'Data Visualization - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ044",
+    "code": "SUBJ044",
+    "name": "Software Testing Methodology",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ044-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Software Testing Methodology.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ044-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Software Testing Methodology.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ044-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Software Testing Methodology.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Software Testing Methodology' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ045",
+    "code": "SUBJ045",
+    "name": "Cryptography &amp; Network Security",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ045-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Cryptography &amp; Network Security.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ045-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Cryptography &amp; Network Security.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ045-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Cryptography &amp; Network Security.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Cryptography &amp; Network Security' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ046",
+    "code": "SUBJ046",
+    "name": "DevOps",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ046-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to DevOps.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ046-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in DevOps.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ046-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in DevOps.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 10,
+    "description": "This subject 'DevOps' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ047",
+    "code": "SUBJ047",
+    "name": "Recommender Systems",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ047-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Recommender Systems.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ047-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Recommender Systems.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ047-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Recommender Systems.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Recommender Systems' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ048-LAB",
+    "code": "SUBJ048-LAB",
+    "is_lab": true,
+    "name": "Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS - Lab",
+    "totalHours": 30,
+    "credit": 3,
+    "description": "This subject 'Any of the 12-Week SWAYAM /NPTEL Course suggested by the BoS - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ049",
+    "code": "SUBJ049",
+    "name": "Software Project Management",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ049-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Software Project Management.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ049-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Software Project Management.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ049-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Software Project Management.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Software Project Management' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ050",
+    "code": "SUBJ050",
+    "name": "Mobile Adhoc Networks",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ050-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Mobile Adhoc Networks.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ050-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Mobile Adhoc Networks.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ050-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Mobile Adhoc Networks.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 5,
+    "description": "This subject 'Mobile Adhoc Networks' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ051",
+    "code": "SUBJ051",
+    "name": "Computer Vision",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ051-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Computer Vision.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ051-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Computer Vision.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ051-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Computer Vision.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 5,
+    "description": "This subject 'Computer Vision' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ052",
+    "code": "SUBJ052",
+    "name": "NoSQL Databases",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ052-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to NoSQL Databases.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ052-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in NoSQL Databases.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ052-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in NoSQL Databases.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 6,
+    "description": "This subject 'NoSQL Databases' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ055",
+    "code": "SUBJ055",
+    "name": "Soft skills",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ055-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Soft skills.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ055-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Soft skills.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ055-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Soft skills.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 9,
+    "description": "This subject 'Soft skills' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ056",
+    "code": "SUBJ056",
+    "name": "Technical Paper Writing & IPR",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ056-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Technical Paper Writing & IPR.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ056-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Technical Paper Writing & IPR.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ056-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Technical Paper Writing & IPR.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Technical Paper Writing & IPR' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ057",
+    "code": "SUBJ057",
+    "name": "Adhoc & Sensor Networks",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ057-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Adhoc & Sensor Networks.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ057-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Adhoc & Sensor Networks.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ057-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Adhoc & Sensor Networks.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Adhoc & Sensor Networks' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ058",
+    "code": "SUBJ058",
+    "name": "Reinforcement Learning",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ058-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Reinforcement Learning.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ058-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Reinforcement Learning.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ058-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Reinforcement Learning.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 10,
+    "description": "This subject 'Reinforcement Learning' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ059",
+    "code": "SUBJ059",
+    "name": "Social Media Analytics",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ059-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Social Media Analytics.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ059-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Social Media Analytics.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ059-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Social Media Analytics.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 5,
+    "description": "This subject 'Social Media Analytics' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ060",
+    "code": "SUBJ060",
+    "name": "Software Testing Methodologies",
+    "is_lab": false,
+    "totalHours": 45,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ060-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Software Testing Methodologies.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ060-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Software Testing Methodologies.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ060-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Software Testing Methodologies.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 4,
+    "description": "This subject 'Software Testing Methodologies' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ060-LAB",
+    "code": "SUBJ060-LAB",
+    "name": "Software Testing Methodologies - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 3,
+    "description": "This subject 'Software Testing Methodologies - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ061",
+    "code": "SUBJ061",
+    "name": "Human Computer Interaction",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ061-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Human Computer Interaction.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ061-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Human Computer Interaction.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ061-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Human Computer Interaction.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 6,
+    "description": "This subject 'Human Computer Interaction' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ062",
+    "code": "SUBJ062",
+    "name": "Cyber Security & Cyber Laws",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ062-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Cyber Security & Cyber Laws.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ062-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Cyber Security & Cyber Laws.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ062-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Cyber Security & Cyber Laws.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 9,
+    "description": "This subject 'Cyber Security & Cyber Laws' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ063",
+    "code": "SUBJ063",
+    "name": "Web Intelligence",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ063-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Web Intelligence.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ063-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Web Intelligence.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ063-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Web Intelligence.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 9,
+    "description": "This subject 'Web Intelligence' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ064",
+    "code": "SUBJ064",
+    "name": "Parallel Computing",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ064-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Parallel Computing.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ064-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Parallel Computing.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ064-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Parallel Computing.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 5,
+    "description": "This subject 'Parallel Computing' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ065",
+    "code": "SUBJ065",
+    "name": "Robotic Process Automation",
+    "totalHours": 45,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ065-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Robotic Process Automation.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ065-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Robotic Process Automation.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ065-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Robotic Process Automation.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Robotic Process Automation' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ065-LAB",
+    "code": "SUBJ065-LAB",
+    "name": "Robotic Process Automation - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 5,
+    "description": "This subject 'Robotic Process Automation - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ066",
+    "code": "SUBJ066",
+    "name": "E-commerce & Digital Marketing",
+    "totalHours": 60,
+    "prerequisites": [],
+    "is_lab": false,
+    "topics": [
+      {
+        "id": "SUBJ066-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to E-commerce & Digital Marketing.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ066-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in E-commerce & Digital Marketing.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ066-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in E-commerce & Digital Marketing.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 7,
+    "description": "This subject 'E-commerce & Digital Marketing' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ067",
+    "code": "SUBJ067",
+    "name": "Bioinformatics",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ067-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Bioinformatics.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ067-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Bioinformatics.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ067-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Bioinformatics.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 10,
+    "description": "This subject 'Bioinformatics' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ068",
+    "code": "SUBJ068",
+    "name": "Block Chain Technologies",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ068-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Block Chain Technologies.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ068-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Block Chain Technologies.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ068-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Block Chain Technologies.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 10,
+    "description": "This subject 'Block Chain Technologies' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ069",
+    "code": "SUBJ069",
+    "name": "Soft Computing",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ069-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Soft Computing.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ069-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Soft Computing.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ069-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Soft Computing.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 4,
+    "description": "This subject 'Soft Computing' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ070",
+    "code": "SUBJ070",
+    "name": "Network and Graph Analysis",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ070-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Network and Graph Analysis.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ070-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Network and Graph Analysis.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ070-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Network and Graph Analysis.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Network and Graph Analysis' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ071",
+    "code": "SUBJ071",
+    "name": "Spring Boot",
+    "totalHours": 45,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ071-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Spring Boot.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ071-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Spring Boot.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ071-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Spring Boot.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 5,
+    "description": "This subject 'Spring Boot' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ071-LAB",
+    "code": "SUBJ071-LAB",
+    "name": "Spring Boot - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 5,
+    "description": "This subject 'Spring Boot - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ072",
+    "code": "SUBJ072",
+    "name": "Autonomous Systems",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ072-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Autonomous Systems.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ072-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Autonomous Systems.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ072-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Autonomous Systems.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Autonomous Systems' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ073",
+    "code": "SUBJ073",
+    "name": "Cloud Computing & IoT",
+    "is_lab": false,
+    "totalHours": 45,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ073-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Cloud Computing & IoT.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ073-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Cloud Computing & IoT.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ073-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Cloud Computing & IoT.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 3,
+    "description": "This subject 'Cloud Computing & IoT' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ073-LAB",
+    "code": "SUBJ073-LAB",
+    "name": "Cloud Computing & IoT - Lab",
+    "is_lab": true,
+    "totalHours": 30,
+    "credit": 5,
+    "description": "This subject 'Cloud Computing & IoT - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ074",
+    "code": "SUBJ074",
+    "name": "Secure Coding Techniques",
+    "totalHours": 45,
+    "prerequisites": [],
+    "is_lab": false,
+    "topics": [
+      {
+        "id": "SUBJ074-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Secure Coding Techniques.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ074-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Secure Coding Techniques.",
+        "theoryHours": 15
+      },
+      {
+        "id": "SUBJ074-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Secure Coding Techniques.",
+        "theoryHours": 15
+      }
+    ],
+    "credit": 6,
+    "description": "This subject 'Secure Coding Techniques' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ074-LAB",
+    "code": "SUBJ074-LAB",
+    "is_lab": true,
+    "name": "Secure Coding Techniques - Lab",
+    "totalHours": 30,
+    "credit": 3,
+    "description": "This subject 'Secure Coding Techniques - Lab' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ075",
+    "code": "SUBJ075",
+    "name": "Management Science",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ075-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Management Science.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ075-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Management Science.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ075-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Management Science.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 9,
+    "description": "This subject 'Management Science' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ076",
+    "code": "SUBJ076",
+    "name": "Big Data: Apache Spark",
+    "totalHours": 60,
+    "is_lab": false,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ076-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Big Data: Apache Spark.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ076-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Big Data: Apache Spark.",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ076-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Big Data: Apache Spark.",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Big Data: Apache Spark' covers key concepts and applications."
+  },
+  {
+    "id": "SUBJ077",
+    "code": "SUBJ077",
+    "name": "Industrial / Research Internship ( After third year)",
+    "is_lab": false,
+    "totalHours": 60,
+    "prerequisites": [],
+    "topics": [
+      {
+        "id": "SUBJ077-T1",
+        "name": "Introduction",
+        "description": "Basic introduction to Industrial / Research Internship ( After third year).",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ077-T2",
+        "name": "Intermediate Concepts",
+        "description": "Intermediate level topics in Industrial / Research Internship ( After third year).",
+        "theoryHours": 20
+      },
+      {
+        "id": "SUBJ077-T3",
+        "name": "Advanced Topics",
+        "description": "Advanced concepts and applications in Industrial / Research Internship ( After third year).",
+        "theoryHours": 20
+      }
+    ],
+    "credit": 8,
+    "description": "This subject 'Industrial / Research Internship ( After third year)' covers key concepts and applications."
+  }
+];
+
+
+
+export const getSubjectById = (id) => {
+  return subjects.find(subject => subject.id === id);
+};
+
+
+
+export const getTotalCredits = (subjectList) => {
+  return subjectList.reduce((total, subject) => total + subject.credits, 0);
+};
