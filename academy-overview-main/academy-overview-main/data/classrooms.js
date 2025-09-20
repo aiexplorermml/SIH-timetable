@@ -1,0 +1,408 @@
+// Classroom and infrastructure data
+
+export const classrooms = [
+  {
+    "id": "1",
+    "name": "Classroom 1",
+    "number": "CLS-AIML-101",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "2",
+    "name": "Classroom 2",
+    "number": "CLS-AIML-102",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "3",
+    "name": "Classroom 3",
+    "number": "CLS-AIML-103",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "4",
+    "name": "Classroom 4",
+    "number": "CLS-AIML-104",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "5",
+    "name": "Classroom 5",
+    "number": "CLS-AIML-105",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "6",
+    "name": "Classroom 6",
+    "number": "CLS-AIML-106",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "7",
+    "name": "Classroom 7",
+    "number": "CLS-AIML-107",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "8",
+    "name": "Classroom 8",
+    "number": "CLS-AIML-108",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "9",
+    "name": "Classroom 9",
+    "number": "CLS-AIML-109",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "10",
+    "name": "Classroom 10",
+    "number": "CLS-AIML-110",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "11",
+    "name": "Classroom 11",
+    "number": "CLS-AIML-111",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+
+  {
+    "id": "12",
+    "name": "Lab 1",
+    "number": "LAB-AIML-101",
+    "type": "lab",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "AI & ML research lab with GPU clusters",
+    "amenities": ["High-end GPUs", "AC", "Whiteboard"],
+    "status": "active",
+    "createdAt": "2024-01-02",
+    "updatedAt": "2024-01-02"
+  },
+
+  {
+    "id": "13",
+    "name": "Conference Room",
+    "number": "CONF-AIML-201",
+    "type": "conference",
+    "capacity": 60,
+    "floor": 2,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Department conference room with video conferencing",
+    "amenities": ["Projector", "Video Conference", "AC"],
+    "status": "active",
+    "createdAt": "2024-01-03",
+    "updatedAt": "2024-01-03"
+  },
+  {
+    "id": "14",
+    "name": "Department Office",
+    "number": "OFF-AIML-101",
+    "type": "office",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Department administration office",
+    "amenities": ["AC", "Printers", "Conference Phone"],
+    "status": "active",
+    "createdAt": "2024-01-04",
+    "updatedAt": "2024-01-04"
+  },
+  {
+    "id": "15",
+    "name": "Library",
+    "number": "LIB-AIML-101",
+    "type": "library",
+    "capacity": 100,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Department library with latest research journals",
+    "amenities": ["WiFi", "Computers", "Reading Rooms"],
+    "status": "active",
+    "createdAt": "2024-01-05",
+    "updatedAt": "2024-01-05"
+  },
+  {
+    "id": "16",
+    "name": "Auditorium",
+    "number": "AUD-AIML-101",
+    "type": "auditorium",
+    "capacity": 120,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Multipurpose auditorium for seminars and guest lectures",
+    "amenities": ["Sound System", "Projector", "AC", "Stage"],
+    "status": "active",
+    "createdAt": "2024-01-05",
+    "updatedAt": "2024-01-05"
+  },
+  {
+    "id": "17",
+    "name": "Classroom 17",
+    "number": "CLS-AIML-117",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "18",
+    "name": "Classroom 18",
+    "number": "CLS-AIML-118",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "19",
+    "name": "Classroom 19",
+    "number": "CLS-AIML-119",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "20",
+    "name": "Classroom 20",
+    "number": "CLS-AIML-120",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "21",
+    "name": "Classroom 21",
+    "number": "CLS-AIML-121",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "22",
+    "name": "Classroom 22",
+    "number": "CLS-AIML-122",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "23",
+    "name": "Classroom 23",
+    "number": "CLS-AIML-123",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "24",
+    "name": "Classroom 24",
+    "number": "CLS-AIML-124",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  },
+  {
+    "id": "25",
+    "name": "Classroom 25",
+    "number": "CLS-AIML-125",
+    "type": "classroom",
+    "capacity": 60,
+    "floor": 1,
+    "building": "Main Block",
+    "department": "AIML",
+    "description": "Standard classroom with projector and whiteboard",
+    "amenities": ["Projector", "Whiteboard", "Fans"],
+    "status": "active",
+    "createdAt": "2024-01-01",
+    "updatedAt": "2024-01-01"
+  }
+  
+
+];
+
+
+
+
+
+// Helper functions
+export const getRoomsByDepartment = (department) => {
+  return classrooms.filter(room => room.department === department);
+};
+
+export const getRoomsByType = (type) => {
+  return classrooms.filter(room => room.type === type);
+};
+
+export const getAvailableRooms = () => {
+  return classrooms.filter(room => room.status === "Available");
+};
+
+export const getItemsByCategory = (category) => {
+  return infrastructureItems.filter(item => item.category === category);
+};
+
+export const getActiveItems = () => {
+  return infrastructureItems.filter(item => item.status === "Active");
+};

@@ -1,0 +1,74 @@
+export const deptSections = [
+  {
+    "id": "aiml-1a",
+    "name": "AI&ML 1A",
+    "year": 1,
+    "section": "A",
+    "semester": "1-1",
+    "totalStudents": 60,
+    "classTeacher": "Mr. Surya Prakash"
+  },
+  {
+    "id": "aiml-1b",
+    "name": "AI&ML 1b",
+    "year": 1,
+    "semester": "1-1",
+    "section": "B",
+    "totalStudents": 60,
+    "classTeacher": "Mrs. Padmavathi"
+  },
+  {
+    "id": "aiml-2a",
+    "name": "AI&ML 2A",
+    "year": 2,
+    "semester": "2-1",
+    "section": "A",
+    "totalStudents": 60,
+    "classTeacher": "Dr. Sarah Johnson"
+  },
+  {
+    "id": "aiml-2b",
+    "name": "AI&ML 2B",
+    "year": 2,
+    "semester": "2-1",
+    "section": "B",
+    "totalStudents": 60,
+    "classTeacher": "Prof. David Chen"
+    },
+  {
+    "id": "aiml-3a",
+    "name": "AI&ML 3A",
+    "year": 3,
+    "semester": "3-1",
+    "section": "A",
+    "totalStudents": 60,
+    "classTeacher": "Dr. Emily Davis"
+     },
+  {
+    "id": "aiml-3b",
+    "name": "AI&ML 3B",
+    "year": 3,
+    "semester": "3-1",
+    "section": "B",
+    "totalStudents": 60,
+    "classTeacher": "Dr. Subbarao"
+     },
+  {
+    "id": "aiml-4a",
+    "name": "AI&ML 4A",
+    "year": 4,
+    "semester": "4-1",
+    "section": "A",
+    "totalStudents": 60,
+    "classTeacher": "Dr. Subha Lakshmi"
+     },
+  {
+    "id": "aiml-4b",
+    "name": "AI&ML 4B",
+    "year": 4,
+    "semester": "4-1",
+    "section": "B",
+    "totalStudents": 60,
+    "classTeacher": "Mr. Prakash"
+     }
+]
